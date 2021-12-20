@@ -12,5 +12,10 @@
       "./dashboard",
       "./marketing"
     ]
+  },
+  "scripts": {
+    "start": "yarn run start-marketing & yarn run start-container",
+    "start-marketing": "yarn workspace marketing start",
+    "start-container": "yarn workspace container start"
   }
 }

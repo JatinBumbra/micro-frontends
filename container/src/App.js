@@ -1,11 +1,8 @@
 import React from 'react';
+import MarketingApp from './components/MarketingApp';
 
 const App = () => {
-  return (
-    <div>
-      <h1>Hekko</h1>
-    </div>
-  );
+  return <MarketingApp />;
 };
 
 export default App;
