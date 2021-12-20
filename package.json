@@ -1,0 +1,16 @@
+{
+  "name": "microfrontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "JatinBumbra",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "./auth",
+      "./container",
+      "./dashboard",
+      "./marketing"
+    ]
+  }
+}
