@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "yarn run start-marketing & yarn run start-container",
+    "start-auth": "yarn workspace auth start",
     "start-marketing": "yarn workspace marketing start",
     "start-container": "yarn workspace container start"
   }
